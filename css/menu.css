@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+    ;
+}
+
+.navItem{
+    width: 100%;
+    background: gray;
+    height:100px;
+    margin-bottom: 10px;
+    
+
+}
+.menu{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+      padding: 5px 20px;
+      position: relative;
+            transition: 0.7s ease;
+
+      color: white;
+      font-size: 18px;
+      font-family:Arial, Helvetica, sans-serif;
+    
+     
+
+   
+
+}
+.menu li a:hover{
+    background: orange;
+    border-radius: 5px;
+    color: black;
+
+
+
+
+   
+}
+
+ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        
+      
+}
+/* nav 2 */
+
+.navItem1{
+    width: 100%;
+    background: rgba(53, 49, 40, 0.966);
+    height:100px;
+    margin-bottom: 10px;
+    
+
+}
+.menu1{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0;
+  
+}
+.menu1 ul li a{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+      padding: 5px 20px;
+      color: rgb(6, 219, 35);
+      font-size: 18px;
+      font-family:Arial, Helvetica, sans-serif;
+      transition:transform 0.3s ease;
+    
+     
+
+   
+
+}
+.menu1 li a:hover{
+
+transform: scale(1.2);
+
+
+   
+}
+
+ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        
+      
+}
+/* nav 3 */
+ 
+.navItem2{
+    width: 100%;
+    background: rgba(37, 37, 36, 0.966);
+    height:100px;
+    margin-bottom: 10px;
+    
+
+}
+.menu2 {
+ width: 1240px;
+    margin: 0 auto;
+    padding:30px 0;
+    
+
+}
+
+.menu2 li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu2 li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: orange;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 3px;
+  transition: transform 0.7s ease;
+}
+
+
+
+/* Animated underline */
+.menu2 li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: orange; 
+  transition: width 0.3s ease;
+}
+
+
+.menu2 li a:hover::after {
+  width: 100%;
+}

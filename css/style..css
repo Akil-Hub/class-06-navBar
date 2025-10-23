@@ -1,0 +1,1021 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #b9b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+    text-align: center;
+    padding: 30px;
+    color: rgb(12, 12, 26);
+    background: #b9b0b0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+    gap: 40px;
+    padding: 40px;
+    row-gap: 250px;
+
+
+
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    border: 10px solid rgb(75, 74, 74);
+    background: white;
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+.flag h3 {
+    bottom: -50px;
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+
+
+.bash {
+    position: absolute;
+    height: 400px;
+    width: 20px;
+    background-color: rgb(75, 74, 74);
+    top: -20px;
+    left: -20px;
+
+
+}
+
+.paya {
+
+    width: 100px;
+    height: 50px;
+    background-color: rgb(75, 74, 74);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    top: 345px;
+    left: -60px;
+
+}
+
+
+
+/* here is the code for Lithuania flag */
+
+.lithuania .yellow {
+    height: 33.3%;
+    background: rgb(214, 214, 16);
+}
+
+.lithuania .green {
+    height: 33.3%;
+    background: green;
+}
+
+.lithuania .red {
+    height: 33.3%;
+    background: red;
+}
+
+/* chili */
+.chili .white {
+    height: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.chili .white .blue {
+    height: 50%;
+    width: 33.33%;
+    background: rgb(16, 16, 194);
+    z-index: 6;
+
+    position: absolute;
+
+}
+
+.chili .red {
+    height: 50%;
+    background: red;
+}
+
+/* belgium */
+
+
+.belgium .black {
+    height: 100%;
+    width: 33.33%;
+    background-color: black;
+}
+
+.belgium .yellow {
+    height: 100%;
+    width: 33.33%;
+    background-color: yellow;
+}
+
+.belgium .red {
+    height: 100%;
+    width: 33.33%;
+    background-color: red;
+}
+
+.belgium .column {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/* puertoRico */
+
+
+.puertoRico .red {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+.puertoRico .white {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+.puertoRico .red {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+.puertoRico .white {
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.puertoRico .red {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+.polygon {
+    height: 100%;
+    width: 50%;
+    ;
+    background: blue;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star5 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star4 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star3 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star1 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star2 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star6 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star7 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star8 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star9 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star10 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star11 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star12 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star13 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+.star14 {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+
+
+}
+
+
+/* libya */
+
+
+.libya .red {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+.libya .black {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.libya .green {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(10, 117, 24);
+}
+
+.libya .star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: white;
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 145px;
+
+
+}
+
+.libya .green img {
+    rotate: 25deg;
+
+    width: 90px;
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+    right: 50%;
+    left: 65px;
+
+}
+
+/* european */
+
+
+.flag.european {
+
+    background-color: rgb(31, 28, 228);
+}
+
+.flag.european h3 {
+
+    bottom: -80px;
+}
+
+
+.european .circle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.european .star {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    clip-path: polygon(50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+    transform: rotate(calc(var(--i) * 30deg)) translateY(-60px);
+}
+
+/* tanzania */
+
+
+.tanzania .green {
+    height: 65%;
+    width: 119%;
+    background-color: rgb(33, 160, 40);
+    rotate: -32deg;
+    position: absolute;
+    top: -60px;
+    left: -57px;
+
+}
+
+.tanzania .black {
+    height: 44%;
+    width: 135%;
+    background-color: rgb(0, 0, 0);
+    rotate: -32deg;
+    top: 54px;
+    left: -52px;
+    position: absolute;
+    border: 15px solid yellow;
+
+    z-index: 5;
+}
+
+.flag.tanzania {
+
+    overflow: hidden;
+}
+
+
+.tanzania .blue {
+    height: 67%;
+    width: 119%;
+    background-color: rgb(20, 145, 218);
+
+    rotate: -31deg;
+    position: absolute;
+    top: 110px;
+    left: 32px;
+
+
+}
+.tanzania-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tanzania-container h3 {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+/* benin */
+.benin .green{
+    height: 100%;
+    width: 33.33%;
+    background: green;
+
+}
+.benin .yellow{
+    height: 50%;
+    width: 66.6%;
+    background: rgb(216, 202, 11);
+    position:absolute;
+    left: 33.33%;
+    top: 0;
+
+}
+.benin .red{
+        height: 50%;
+    width: 66.6%;
+    background: red;
+    position: absolute;
+    left: 33.33%;
+    top: 50%;
+
+}
+
+/* gamber */
+.gamber .blue{
+    width: 100%;
+    height: 33.33%;
+    background: darkblue;
+    position: absolute;
+    top: 33.33%;
+
+}
+.gamber .star{
+    height: 35px;
+    width: 35px;
+    background: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.gamber .star1{
+    height: 35px;
+    width: 35px;
+    background: darkblue;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.gamber .star2{
+       height: 35px;
+    width: 35px;
+    background: darkblue;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.gamber .star3{
+    height: 35px;
+    width: 35px;
+    background: darkblue;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.gamber .star4{
+    height: 35px;
+    width: 35px;
+    background: darkblue;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.gamber h3{
+    bottom: -80px;
+}
+
+
+/* eastTimor */
+.eastTimor {
+  
+    background: rgb(170, 13, 13);
+ 
+
+}
+.eastTimor .polygon{
+
+    height: 100%;
+    width: 50%;
+    ;
+    background: rgb(204, 207, 17);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+}
+.eastTimor .black{
+      height: 100%;
+    width: 35%;
+    ;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+/* usa */
+
+.usa{
+    position: relative;
+    background: white;
+    
+    
+}
+.usa .red{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 0, 0);
+    top: 0;
+
+   
+
+
+}
+.usa .red1{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    background-color: red;
+
+   
+
+
+}
+.usa .red2{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    background-color: red;
+
+   
+
+
+}
+
+.usa .red3{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+
+       background-color: red;
+
+
+
+}
+
+.usa .red4{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+
+       background-color: red;
+
+
+
+}
+.usa .blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 55%;
+  background: blue;
+  ;
+}
+.usa .star,.star1,.star2,.star3,.star4,.star5,.star6,.star7,.star8,.star9,.star10,.star11,.star12,.star13,.star14,.star15{  
+    width: 30px;
+    height: 30px;
+}
+.usa .star{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.usa .star1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.usa .star2{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.usa .star3{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.usa .star4{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+
+.usa .star5{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.usa .star6{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.usa .star7{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.usa .star8{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.usa .star9{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.usa .star10{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+.usa .star11{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.usa .star12{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.usa .star13{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.usa .star14{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+}
+
+/* England */
+.england .vertical{
+    height: 100%;
+    width: 13%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.england .horezontal{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+ 
+}
+/* qatar */
+.qatar .katakata{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(143, 26, 26);
+    position: absolute;
+    left:31%;
+
+ 
+}
+.katakata img{
+    height: 100%;
+    width:50px;
+
+    position: absolute;
+    left:-25%;
+}
+/* singapore */
+.singapore .red{
+    width: 100%;
+    height:50%;
+    background: rgb(201, 12, 12);
+    
+
+    position: absolute;
+    
+}
+.singapore .red img{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    rotate: 30deg;
+    top: -10px;
+}
+.singapore .red .circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+
+.singapore .red .star {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+    transform: rotate(calc(var(--i) * 72deg))translate(15px) rotate(calc(var(--i) * -72deg));
+    rotate: -30deg;
+}
+
+
+/* greenland */
+.flag.greenland .red {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  background: red;
+}
+
+.greenland .circle {
+  position: absolute;
+  left: 20%;
+  top: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;      /* ✅ This makes it appear circular */
+  z-index: 5;
+  background: white;     /* Optional: base color if you want */
+}
+
+/* Inner halves inside the circle */
+.greenland .red1 {
+  height: 50%;
+  width: 100%;
+  background: red;
+}
+
+.greenland .white1 {
+  height: 50%;
+  width: 100%;
+  background: white;
+}
+
+/* pakistan */
+.flag.pakistan{
+    background: rgb(6, 75, 6);
+}
+.pakistan .white {
+  width: 25%;
+  height: 100%;
+  background: white;
+}
+.green img{
+    width: 62%;
+    position: absolute;
+    top: 5px;
+    left:70px;
+    rotate: -5deg
+    ;
+}
+.star{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    left: 170px;
+    top: 65px;
+}
+/* mohili */
+.flag.mohili{
+    background: rgb(219, 219, 21);
+}
+.mohili .star{
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* southKorea */
+.flag.southKorea img{
+    text-align: center;
+    width: 90%;
+    margin-top: 5px;
+}
+/* argintina */
+
+
+.argintina .sky{
+height: 33.33%;
+width: 100%;
+background: rgb(0, 171, 238);
+}
+.argintina .sky1{
+height: 33.33%;
+width: 100%;
+background: rgb(0, 171, 238);
+position: absolute;
+top: 67.00%;
+}
+.argintina img{
+    width: 30%;
+    z-index: 9;
+}
+
+/* brazil */
+.brazil{
+    background: green;
+}
+.brazil img{
+  width: 100%;
+}
