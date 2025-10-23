@@ -22,7 +22,8 @@
 }
 .menu ul li a{
     text-decoration: none;
-      padding: 5px 20px;
+      padding: 5px 15px;
+      margin: 0 5px;
       position: relative;
             transition: 0.7s ease;
 
